@@ -1,0 +1,22 @@
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center; 
+    /* to align horizontally center */
+
+    align-items: center;
+      /* to align vertically center */
+
+}
+.colorbtn{
+    padding: 10px;
+    color: black;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: gray;
+    font-size: 20px;
+    cursor: pointer;
+}
+.colorbtn:hover{
+    background: honeydew;
+}
